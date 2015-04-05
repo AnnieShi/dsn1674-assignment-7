@@ -32,6 +32,7 @@ h1 {
 	color: #512200;
 }
 
+
 .masthead {
 	background-image: url("../images/header-background.png");
 	background-size: 300px auto;
@@ -41,9 +42,14 @@ h1 {
 	text-align: center;
 }
 
+nav li{
+	float: left;
+	width: 25%;
+}
 nav a {
 	display: block;
 	color: #512200;
+	font-size: 3rem;
 	text-decoration: none;
 	text-align: left;
 	padding: 1em 1em 1em 1em;
@@ -80,14 +86,18 @@ nav a {
 	float: right;
 }
 
+.dung {
+	width: 50%;
+	float: left;
+}
+
+.tortoise {
+	width: 50%;
+	float: right;
+}
+
 footer {
 	color: #512200;
 	opacity: 50%;
 	padding: 2em 0em 2em 0em;
-	background-image: url("../images/beetle-graphic-right.svg");
-	background-size: 75px auto;
-	padding: 2em;
-	background-repeat: no-repeat;
-	background-position: center 10px;
-
 }
