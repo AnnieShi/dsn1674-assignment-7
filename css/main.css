@@ -7,3 +7,87 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.beetle-l{
+	float: left;
+	width: 60px;
+	padding: 0.5em 0em 0em 0em;
+	border: 0;
+}
+
+.beetle-r{
+	float: right;
+	width: 60px;
+	padding: 0.5em 0em 0em 0em;
+	border: 0;
+}
+
+h1 {
+	font-size: 5rem;
+	color: #512200;
+}
+
+.masthead {
+	background-image: url("../images/header-background.png");
+	background-size: 300px auto;
+	padding: 6em;
+	background-repeat: repeat;
+	background-position: left top;
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	color: #512200;
+	text-decoration: none;
+	text-align: left;
+	padding: 1em 1em 1em 1em;
+	margin: 0;
+	width: 100%;
+}
+
+.dirt {
+	display: block;
+	width: 100%;
+}
+
+.dirtwrap {
+	position: relative;
+}
+
+.percent {
+	position: absolute;
+	left: 0;
+	bottom: 1em;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	width: 100%;
+}
+
+.ant {
+	width: 50%;
+	float: left;
+}
+
+.stag {
+	width: 50%;
+	float: right;
+}
+
+footer {
+	color: #512200;
+	opacity: 50%;
+	padding: 2em 0em 2em 0em;
+	background-image: url("../images/beetle-graphic-right.svg");
+	background-size: 75px auto;
+	padding: 2em;
+	background-repeat: no-repeat;
+	background-position: center 10px;
+
+}

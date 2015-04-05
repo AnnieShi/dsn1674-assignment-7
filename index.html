@@ -4,14 +4,24 @@
   <meta charset="utf-8">
   <title>Beetles</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href=".css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
+  <link href="css/main.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	padding: 1em 1em 1em 1em;
+	margin: 0;
+	width: 100%;
+}
 </head>
 <body>
 
-<header>
-	<h1>Beetles</h1>
+<header class="masthead">
 
+	<img class="beetle-l" src="images/beetle-graphic-left.svg" alt="left beetle graphic">
+	<img class="beetle-r" src="images/beetle-graphic-right.svg" alt="right beetle graphic">
+	<h1>Beetles</h1>
 		<nav>
 		<ul>
 			<li><a href="#antnest">Ant Nest</a></li>
@@ -22,24 +32,27 @@
 </nav>
 </header>
 
-<div>
-		<img class= "dirt" src="dirt.jpg" alt="Photo of dirt and stone ground.">
-		<h2>Beetles: 25% of all known animal life-forms.</h2>
+<div class="dirtwrap">
+		<img class= "dirt" src="images/dirt.jpg" alt="Photo of dirt and stone ground.">
+		<h2 class="percent">Beetles: 25% of all known animal life-forms.</h2>
 </div>
 
 <div>
-		<img class="antbeetle" src="ant-nest-beetle.jpg" alt="Photo of an Ant Nest Beetle.">
+		<img class="ant" src="images/ant-nest-beetle.jpg" alt="Photo of an Ant Nest Beetle.">
 		<h2>Ant Nest</h2>
-		<img class="stag" src="stag-beetle.jpg" alt="Photo of Stag Beetle">
+		<img class="stag" src="images/stag-beetle.jpg" alt="Photo of Stag Beetle">
 		<h2>Stag</h2>
 </div>
 
 <div>
-		<img class="dung" src="dung-beetle.jpg" alt="Photo of a Dung Beetle.">
-		<h2>Ant Nest</h2>
-		<img class="tortoise" src="tortoise-beetle.jpg" alt="Photo of Tortoise Beetle">
-		<h2>Stag</h2>
+		<img class="dung" src="images/dung-beetle.jpg" alt="Photo of a Dung Beetle.">
+		<h2>Dung</h2>
+		<img class="tortoise" src="images/tortoise-beetle.jpg" alt="Photo of Tortoise Beetle">
+		<h2>Tortoise</h2>
 </div>
+
+<footer>
+</footer>
 
 </body>
 </html>
