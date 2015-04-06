@@ -74,6 +74,7 @@ nav a {
 
 .dirtwrap {
 	position: relative;
+	background-image: linear-gradient(to bottom, transparent, black);
 }
 
 .percent {
@@ -81,7 +82,7 @@ nav a {
 	left: 0;
 	bottom: 1em;
 	color: white;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	width: 100%;
 }
@@ -91,9 +92,30 @@ nav a {
 	float: left;
 }
 
+.ntnst {
+	display: inline-block;
+	padding: 0.5em 3em;
+	text-decoration: none;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #a8ae98;
+	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52)
+}
+
 .stag {
 	width: 50%;
 	float: right;
+	position: relative;
+}
+
+.stg {
+	display: inline-block;
+	padding: 0.5em 3em;
+	text-decoration: none;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #a8ae98;
+	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
 }
 
 .dung {
@@ -106,8 +128,10 @@ nav a {
 	float: right;
 }
 
+
 footer {
-	color: #512200;
-	opacity: 50%;
-	padding: 2em 0em 2em 0em;
+	background-color: #512200;
+	opacity: 0.5;
+	padding: 0.5em 0em 0.5em 0em;
 }
+
