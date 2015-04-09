@@ -13,35 +13,20 @@ body {
   padding: 0;
 }
 
-.beetle-l{
-	float: left;
-	width: 60px;
-	padding: 0.5em 0em 0em 0em;
-	border: 0;
-}
-
-.beetle-r{
-	float: right;
-	width: 60px;
-	padding: 0.5em 0em 0em 0em;
-	border: 0;
-}
-
 h1 {
 	font-size: 3rem;
 	color: #512200;
 	margin: 0;
-	padding: 0.5em 0em 0em 0em;
+	padding: 0.5em 0em 0.5em 0em;
 }
 
 .masthead {
-	background-image: url("../images/header-background.png");
-	background-size: 300px auto;
-	padding: 6em;
-	background-repeat: repeat;
-	background-position: left top;
+	background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg"), url("../images/header-background.png");
+	background-size: 55px auto, 55px auto, 100px auto;
+	padding-top: 0.6em;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-position: left 20px, right 20px, center 20px;
 	text-align: center;
-	padding: 0;
 }
 
 nav li{
@@ -59,7 +44,7 @@ nav ul {
 nav a {
 	display: block;
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	text-decoration: none;
 	text-align: left;
 	padding: 1em 1em 1em 1em;
@@ -68,7 +53,6 @@ nav a {
 }
 
 nav {
-
 	background-color: rgba(81,34,0,0.5);
 	margin: 0;
 	padding: 0;
@@ -78,95 +62,57 @@ ul li:hover {
 	background-color: #512200;
 	opacity: 0.75;
 	margin: 0;
-	padding: 0.5em;
+	padding: 0.5;
 }
 
 .dirt {
 	display: block;
 	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 .dirtwrap {
-	position: relative;
-		background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
-
+position: relative;
+padding: 0em;
 }
 
 .percent {
+	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
 	position: absolute;
-	left: 0;
-	bottom: 1em;
+	padding-bottom: 1em;
+	padding-top: 8em;
 	color: white;
-	font-size: 2em;
 	text-align: center;
 	width: 100%;
-
+	margin: 0;
 }
 
-.ant {
-	width: 50%;
+.beetle-box {
+	position: relative;
 	float: left;
-	position: relative;
-}
-
-.nst {
-	display: inline-block;
-	padding: 0.5em 3em;
-	text-decoration: none;
-	border-radius: 20px;
-	color: #fff;
-	background-color: #a8ae98;
-	background-image: linear-gradient(to bottom, #6fbf44, #388200)
-}
-
-.stag {
 	width: 50%;
-	float: right;
-	position: relative;
 }
 
-.stg {
+.beetle-box img {
+	display: block;
+	width: 100%;
+}
+
+.button-script {
 	display: inline-block;
-	padding: 0.5em 3em;
+	left: 20%;
+	width: 60%;
+	bottom: 1.5em;
+	padding: 0.5em;
 	text-decoration: none;
 	border-radius: 20px;
 	color: #fff;
 	background-color: #6fbf44;
 	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 	position: absolute;
-	box-shadow: 0.2px 2px rgba (00,0,1);
-}
-
-.dung {
-	width: 50%;
-	float: left;
-}
-
-.dng {
-	display: inline-block;
-	padding: 0.5em 3em;
-	text-decoration: none;
-	border-radius: 20px;
-	color: #fff;
-	background-color: #6fbf44;
-	background-image: linear-gradient(to bottom, #6fbf44, #388200);
-	box-shadow: 0.2px, 5px, rgba(0, 0, 0, 1);
-}
-
-
-.tortoise {
-	width: 50%;
-	float: right;
-}
-
-.trt {
-	display: inline-block;
-	padding: 0.5em 3em;
-	text-decoration: none;
-	border-radius: 20px;
-	color: #fff;
-	background-color: #6fbf44;
-	background-image: linear-gradient(to bottom, #6fbf44, #388200);
+	box-shadow: 0.2px 2px rgba(0, 0,0,1);
+	text-align: center;
 }
 
 footer {
