@@ -22,7 +22,7 @@ h1 {
 
 .masthead {
 	background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg"), url("../images/header-background.png");
-	background-size: 55px auto, 55px auto, 100px auto;
+	background-size: 50px auto, 50px auto, 100px auto;
 	padding-top: 0.6em;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-position: left 20px, right 20px, center 20px;
@@ -77,12 +77,13 @@ position: relative;
 padding: 0em;
 }
 
-.percent {
+h2 {
 	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
 	position: absolute;
 	padding-bottom: 1em;
 	padding-top: 8em;
 	color: white;
+	font-size: 1.7em;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -103,16 +104,21 @@ padding: 0em;
 	display: inline-block;
 	left: 20%;
 	width: 60%;
-	bottom: 1.5em;
-	padding: 0.5em;
+	bottom: 0.3em;
+	padding: 0.3em;
 	text-decoration: none;
-	border-radius: 20px;
+	border-radius: 15px;
+	font-size: 1.5em;
 	color: #fff;
 	background-color: #6fbf44;
-	background-image: linear-gradient(to bottom, #6fbf44, #388200);
+	background-image: linear-gradient(to top, #006600, #009900, #00FF00);
 	position: absolute;
-	box-shadow: 0.2px 2px rgba(0, 0,0,1);
+	box-shadow: 0.2px 2px rgba(0, 0, 0, 0.5);
 	text-align: center;
+}
+
+h3:hover {
+	background-image: linear-gradient(to top, #003300, #006600);
 }
 
 footer {
