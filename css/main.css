@@ -58,13 +58,27 @@ nav ul {
 
 nav a {
 	display: block;
-	color: #512200;
-	font-size: 2rem;
+	color: #fff;
+	font-size: 1rem;
 	text-decoration: none;
 	text-align: left;
 	padding: 1em 1em 1em 1em;
 	margin: 0;
 	width: 100%;
+}
+
+nav {
+
+	background-color: rgba(81,34,0,0.5);
+	margin: 0;
+	padding: 0;
+}
+
+ul li:hover {
+	background-color: #512200;
+	opacity: 0.75;
+	margin: 0;
+	padding: 0.5em;
 }
 
 .dirt {
@@ -74,7 +88,8 @@ nav a {
 
 .dirtwrap {
 	position: relative;
-	background-image: linear-gradient(to bottom, transparent, black);
+		background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+
 }
 
 .percent {
@@ -85,21 +100,23 @@ nav a {
 	font-size: 2em;
 	text-align: center;
 	width: 100%;
+
 }
 
 .ant {
 	width: 50%;
 	float: left;
+	position: relative;
 }
 
-.ntnst {
+.nst {
 	display: inline-block;
 	padding: 0.5em 3em;
 	text-decoration: none;
 	border-radius: 20px;
 	color: #fff;
 	background-color: #a8ae98;
-	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52)
+	background-image: linear-gradient(to bottom, #6fbf44, #388200)
 }
 
 .stag {
@@ -114,8 +131,10 @@ nav a {
 	text-decoration: none;
 	border-radius: 20px;
 	color: #fff;
-	background-color: #a8ae98;
-	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+	background-color: #6fbf44;
+	background-image: linear-gradient(to bottom, #6fbf44, #388200);
+	position: absolute;
+	box-shadow: 0.2px 2px rgba (00,0,1);
 }
 
 .dung {
@@ -123,15 +142,42 @@ nav a {
 	float: left;
 }
 
+.dng {
+	display: inline-block;
+	padding: 0.5em 3em;
+	text-decoration: none;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #6fbf44;
+	background-image: linear-gradient(to bottom, #6fbf44, #388200);
+	box-shadow: 0.2px, 5px, rgba(0, 0, 0, 1);
+}
+
+
 .tortoise {
 	width: 50%;
 	float: right;
 }
 
-
-footer {
-	background-color: #512200;
-	opacity: 0.5;
-	padding: 0.5em 0em 0.5em 0em;
+.trt {
+	display: inline-block;
+	padding: 0.5em 3em;
+	text-decoration: none;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #6fbf44;
+	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 }
 
+footer {
+	background-color: rgba(81, 34, 0, 0.5);
+	background-position: center 5px;
+	clear: both;
+	text-align: center;
+	padding: 1em;
+}
+
+.beetle-c {
+width: 10%;
+z-index: 1000em;
+}
