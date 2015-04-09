@@ -17,13 +17,13 @@ h1 {
 	font-size: 3rem;
 	color: #512200;
 	margin: 0;
-	padding: 0.5em 0em 0.5em 0em;
+	padding: 0.5em;
 }
 
 .masthead {
 	background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg"), url("../images/header-background.png");
 	background-size: 50px auto, 50px auto, 100px auto;
-	padding-top: 0.6em;
+	padding: 1em 0em 0em 0em;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-position: left 20px, right 20px, center 20px;
 	text-align: center;
@@ -46,8 +46,8 @@ nav a {
 	color: #fff;
 	font-size: 1.5rem;
 	text-decoration: none;
-	text-align: left;
-	padding: 1em 1em 1em 1em;
+	text-align: center;
+	padding: 0.5em;
 	margin: 0;
 	width: 100%;
 }
@@ -102,10 +102,11 @@ h2 {
 
 .button-script {
 	display: inline-block;
-	left: 20%;
-	width: 60%;
-	bottom: 0.3em;
-	padding: 0.3em;
+	left: 25%;
+	width: 50%;
+	bottom: 5px;
+	padding: 5px;
+	margin: 10px;
 	text-decoration: none;
 	border-radius: 15px;
 	font-size: 1.5em;
@@ -113,7 +114,7 @@ h2 {
 	background-color: #6fbf44;
 	background-image: linear-gradient(to top, #006600, #009900, #00FF00);
 	position: absolute;
-	box-shadow: 0.2px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
 	text-align: center;
 }
 
@@ -126,10 +127,10 @@ footer {
 	background-position: center 5px;
 	clear: both;
 	text-align: center;
-	padding: 1em;
+	padding: 10px;
 }
 
 .beetle-c {
-width: 10%;
+width: 30px;
 z-index: 1000em;
 }
