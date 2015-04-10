@@ -1,6 +1,6 @@
 html {
 	font-family: 'Dosis', sans-serif;
-	line-height: 1.5rem;
+	line-height: 2rem;
   box-sizing: border-box;
 }
 
@@ -102,10 +102,10 @@ h2 {
 
 .button-script {
 	display: inline-block;
-	left: 25%;
+	left: 20%;
 	width: 50%;
 	bottom: 5px;
-	padding: 5px;
+	padding: 4px;
 	margin: 10px;
 	text-decoration: none;
 	border-radius: 15px;
